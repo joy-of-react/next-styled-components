@@ -11,7 +11,9 @@ function RootLayout({ children }) {
           {children}
         </StyledComponentsRegistry>
 
-        <footer>Copyright Whatever Inc.</footer>
+        <footer>
+          Copyright Whatever Inc.
+        </footer>
       </body>
     </html>
   );
