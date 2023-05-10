@@ -1,5 +1,3 @@
-## Next 13 template
+## Next 13 + styled-components
 
-This is a _super minimal_ starter for Next 13's App Router.
-
-Not intended for use in production. Purely used for educational reasons.
+This repo is meant to be used as part of an exercise in [The Joy of React](https://www.joyofreact.com/).
