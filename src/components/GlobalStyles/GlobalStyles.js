@@ -1,3 +1,8 @@
+'use client';
+import React from 'react';
+import { createGlobalStyle } from 'styled-components';
+
+const GlobalStyles = createGlobalStyle`
 /*
   Josh's Custom CSS Reset
   https://www.joshwcomeau.com/css/custom-css-reset/
@@ -54,7 +59,7 @@ body {
   padding: 16px;
   min-height: 100%;
   font-family: sans-serif;
-  background: hsl(0deg 0% 95%);
+  background: hsl(0deg 100% 95%);
   color: hsl(0deg 0% 10%);
 }
 footer {
@@ -96,3 +101,6 @@ figcaption {
   font-size: 1rem;
   color: hsl(0deg 0% 30%);
 }
+`;
+
+export default React.memo(GlobalStyles);

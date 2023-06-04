@@ -1,7 +1,7 @@
 import React from 'react';
 
 import StyledComponentsRegistry from '../components/StyledComponentsRegistry';
-import './styles.css';
+import GlobalStyles from '../components/GlobalStyles';
 
 function RootLayout({ children }) {
   return (
@@ -9,11 +9,10 @@ function RootLayout({ children }) {
       <body>
         <StyledComponentsRegistry>
           {children}
+          <GlobalStyles />
         </StyledComponentsRegistry>
 
-        <footer>
-          Copyright Whatever Inc.
-        </footer>
+        <footer>Copyright Whatever Inc.</footer>
       </body>
     </html>
   );
